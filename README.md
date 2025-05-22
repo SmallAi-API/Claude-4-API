@@ -62,8 +62,8 @@ pip install openai python-dotenv
 创建 `.env` 文件：
 
 ```env
-CLAUDE_API_KEY=sk-your-api-key-here
-CLAUDE_BASE_URL=https://ai98.vip/v1
+OPENAI_API_URL=sk-your-api-key-here
+OPENAI_API_KEY=https://ai98.vip/v1
 ```
 
 ## 💻 代码示例
@@ -79,8 +79,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(
-    base_url=os.getenv("CLAUDE_BASE_URL"),
-    api_key=os.getenv("CLAUDE_API_KEY")
+    base_url=os.getenv("OPENAI_API_URL"),
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 def basic_chat():
