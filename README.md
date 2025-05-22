@@ -1,9 +1,11 @@
 # Claude-4-API
 ![Claude 4 API Banner](./image/banner.png)
+
 🚀 **Claude 4 API 调用教程与代码示例**
 
 本项目提供 Claude 4 Opus 和 Claude 4 Sonnet 模型的 API 调用教程，支持使用 OpenAI 格式进行调用，简单易用！
-![Claude](./image/claude.png)
+![Claude](./image/Claude.png)
+
 ## 📋 目录
 
 - [模型介绍](#模型介绍)
