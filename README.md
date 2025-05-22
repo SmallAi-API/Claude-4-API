@@ -1,5 +1,5 @@
 # Claude-4-API
-
+![Claude 4 API Banner](./images/banner.png)
 🚀 **Claude 4 API 调用教程与代码示例**
 
 本项目提供 Claude 4 Opus 和 Claude 4 Sonnet 模型的 API 调用教程，支持使用 OpenAI 格式进行调用，简单易用！
@@ -24,18 +24,19 @@
 - 💪 专注于复杂、长时间深度思考任务
 - 📊 SWE-bench: 72.5% | Terminal-bench: 43.2%
 - 🧠 支持扩展思考模式，可持续工作数小时
-- 💰 定价：13.5/67.5 美元（每百万tokens 输入/输出）
-
+- 💰 定价：15/75 美元（每百万tokens 输入/输出）
+- 💰 SmallAi 定价：13.5/67.5 美元（每百万tokens 输入/输出）
 ### Claude 4 Sonnet (`claude-sonnet-4-20250514`)
 - ⚡ 高效平衡型模型
 - 🎯 精准理解指令，快速响应
 - 📈 相比 Sonnet 3.7 大幅提升
-- 💰 定价：2.7/13.5 美元（每百万tokens 输入/输出）
+- 💰 定价：3/15 美元（每百万tokens 输入/输出）
+- 💰 SmallAi 定价：2.7/13.5 美元（每百万tokens 输入/输出）
 
 ## 🔑 获取 API Key
 
 ### 方式一：SmallAi 平台（推荐）
-
+![SmallAi Platform Interface](./images/smallai-interface.png)
 1. **访问商城**：[https://shop.smallai.asia](https://shop.smallai.asia)
 2. **选择额度**：建议从 $50 或 $100 开始
    > ⚠️ **重要**：请选择"全系列模型Key"，否则无法使用 Claude 系列模型
@@ -45,7 +46,7 @@
 4. **获取密钥**：购买后检查邮箱，复制 `sk-xxxxxxxxxxxxxx` 格式的密钥
 
 ### 方式二：官方订阅
-
+![SmallAi Platform Interface](./images/Claude-Pricing.png)
 访问 [Anthropic 官网](https://www.anthropic.com/) 进行订阅：
 - Pro: $17/月
 - Max: $100/月  
@@ -293,7 +294,7 @@ except Exception as e:
 - ✅ 代码生成与调试
 - ✅ 流式响应
 - ✅ 多轮对话
-- ✅ 工具调用（即将支持）
+- ✅ 工具调用
 
 ### Q: 如何优化成本？
 
@@ -329,5 +330,3 @@ MIT License
 ---
 
 ⭐ 如果这个项目对你有帮助，请给个 Star！
-
-📧 有问题？联系我们：support@smallai.asia
