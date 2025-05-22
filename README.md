@@ -1,23 +1,11 @@
 # Claude-4-API
-![Claude 4 API Banner](./image/banner.png)
+<img src="./image/banner.png" alt="Claude 4 API Banner" style="border-radius: 10px; width: 80%;">
 
 🚀 **Claude 4 API 调用教程与代码示例**
 
 本项目提供 Claude 4 Opus 和 Claude 4 Sonnet 模型的 API 调用教程，支持使用 OpenAI 格式进行调用，简单易用！
-![Claude](./image/Claude.png)
 
-## 📋 目录
-
-- [模型介绍](#模型介绍)
-- [获取 API Key](#获取-api-key)
-- [快速开始](#快速开始)
-- [代码示例](#代码示例)
-  - [基础对话](#基础对话)
-  - [图像识别](#图像识别)
-  - [高级功能](#高级功能)
-- [模型对比](#模型对比)
-- [常见问题](#常见问题)
-- [更新日志](#更新日志)
+<img src="./image/Claude.png" alt="Claude" style="border-radius: 10px; width: 80%;">
 
 ## 🤖 模型介绍
 
@@ -38,7 +26,9 @@
 ## 🔑 获取 API Key
 
 ### 方式一：SmallAi 平台（推荐）
-![SmallAi Platform Interface](./image/smallai-interface.png)
+
+<img src="./image/smallai-interface.png" alt="smallai-interface" style="border-radius: 10px; width: 80%;">
+
 1. **访问商城**：[https://shop.smallai.asia](https://shop.smallai.asia)
 2. **选择额度**：建议从 $50 或 $100 开始
    > ⚠️ **重要**：请选择"全系列模型Key"，否则无法使用 Claude 系列模型
@@ -48,7 +38,9 @@
 4. **获取密钥**：购买后检查邮箱，复制 `sk-xxxxxxxxxxxxxx` 格式的密钥
 
 ### 方式二：官方订阅
-![SmallAi Platform Interface](./image/Claude-Pricing.png)
+
+<img src="./image/Claude-Pricing.png" alt="Claude-Pricing" style="border-radius: 10px; width: 80%;">
+
 访问 [Anthropic 官网](https://www.anthropic.com/) 进行订阅：
 - Pro: $17/月
 - Max: $100/月  
